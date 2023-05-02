@@ -1,0 +1,91 @@
+*{
+   max-width: 1200px; 
+   box-sizing: border-box;
+   margin:10px auto;
+   position: relative;
+   background-color: rgb(159, 152, 116);
+    animation-name: example;
+   animation-duration: 4s ;
+   animation-delay:1s ;
+}
+@keyframes example{
+   0%{ background-color:rgb(195, 92, 92); left:0px; top:0px;}
+    25%  {background-color:rgb(159, 159, 99); left:30px; top:0px;}
+    /* 50%  {background-color:blue; left:200px; top:200px;} */
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:rgb(208, 208,88); left:0px; top:0px;}
+}
+header{
+    display: flex; 
+    padding: 20px;
+    padding-right: 20px;
+}
+header .nav a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(2, 66, 66);
+}
+header .nav a:hover{
+    color: rgb(160, 214, 214);
+    font-size: 30px;
+
+}
+
+section{
+    display: flex;
+    padding: 20px;
+}
+section .image-me{
+    border-radius: 200px ;
+}
+section .contact {
+    display: grid;
+}
+section .contact a{
+    text-decoration: none;
+    font-size: 25px;
+    color:none;
+}
+section .pro{
+    padding: 0 40px;
+    font-size: 20px ;
+    line-height: 2.5rem;
+}
+.btn{
+    margin-top:20px ;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+    border-radius:10px;
+}
+.btn:hover{
+    color:gold ;
+    background-color: rgb(79, 95, 95);
+    font-size: 22px ;
+}
+section .contact a .fa-github{
+    color: white;
+}
+section .contact a .fa-github:hover{
+    font-size:40px ;
+}
+
+section .contact a .fa-linkedin{
+    color: rgb(10, 102, 194);
+}
+section .contact a .fa-linkedin:hover{
+    color: blue;
+    font-size: 40px;
+}
+section .contact a .fa-twitter{
+    color: rgb(29, 155, 240);
+}
+section .contact a .fa-twitter:hover{
+    color: blue;
+    font-size:40px ;
+}
+section .contact a .fa-envelope:hover{
+     color: black; 
+    font-size: 40px;
+}
