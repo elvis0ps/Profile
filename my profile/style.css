@@ -1,12 +1,12 @@
 body{
    max-width: 1200px; 
    box-sizing: border-box;
-   margin:10px auto;
+   margin:50px auto;
    position: relative;
    background-color: rgb(159, 152, 116);
     animation-name: example;
-   /* animation-duration: 4s ; */
-   /* animation-delay:1s ; */
+   animation-duration: 4s ;
+   animation-delay:1s ;
 }
 @keyframes example{
    0%{ background-color:rgb(195, 92, 92); left:0px; top:0px;}
@@ -14,29 +14,33 @@ body{
     100% {background-color:rgb(208, 208,88); left:0px; top:0px;}
 }
 header{
+    /* border:1px solid ; */
+    padding-bottom:50px ;
     display: flex; 
     padding: 20px;
-    padding-right: 20px;
+    margin-bottom:20px ;
+    margin-left: 100px;
 }
 header .nav a{
     padding: 20px;
+    padding-left: 35px ;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(2, 66, 66);
-}
-header #kill{
-    display: inline;
-    border: 2px solid rgb(134, 97, 97) ;
 }
 header .nav a:hover{
     color: rgb(160, 214, 214);
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
 section{
     display: flex;
     padding: 20px;
+}
+
+section #top{
+    margin-top: -30px;
 }
 section .image-me{
     border-radius: 200px ;
@@ -46,14 +50,17 @@ section .contact {
 }
 section .contact a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     color:none;
 }
 section .pro{
+    
     padding: 0 40px;
-    font-size: 20px ;
+    font-size: 25px ;
     line-height: 2.5rem;
 }
+
+
 .btn{
     margin-top:20px ;
     font-size: 20px;
@@ -70,7 +77,7 @@ section .contact a .fa-github{
     color: white;
 }
 section .contact a .fa-github:hover{
-    font-size:40px ;
+    font-size:55px ;
 }
 
 section .contact a .fa-linkedin{
@@ -78,20 +85,32 @@ section .contact a .fa-linkedin{
 }
 section .contact a .fa-linkedin:hover{
     color: blue;
-    font-size: 40px;
+    font-size: 55px;
 }
 section .contact a .fa-twitter{
     color: rgb(29, 155, 240);
 }
 section .contact a .fa-twitter:hover{
     color: blue;
-    font-size:40px ;
+    font-size:55px ;
 }
 section .contact a .fa-envelope:hover{
      color: black; 
-    font-size: 40px;
+    font-size: 55px;
 }
 .dark{
     background-color: black;
     color: white;
+}
+      /* About Me */
+ #abo{ 
+    border: 1px solid red;
+    margin-left: 40px;}
+#bar{
+margin-left: 600px;
+
+
+}
+    
+
 }
